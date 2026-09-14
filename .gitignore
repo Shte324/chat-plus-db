@@ -1,0 +1,23 @@
+.env
+
+# Composer
+/vendor/
+
+# Логи и временные файлы (но папки оставляем в Git через .gitkeep)
+/storage/logs/*
+!/storage/logs/.gitkeep
+/storage/rate/*
+!/storage/rate/.gitkeep
+
+# Локальные настройки OSPanel
+/.osp/
+
+# IDE
+.vscode/
+.idea/
+
+# Мусор ОС
+Thumbs.db
+.DS_Store
+*.log
+
