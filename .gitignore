@@ -21,3 +21,8 @@ Thumbs.db
 .DS_Store
 *.log
 
+#  проверка подключения к БД для разработки /git rm --cached backend/_check_db.php - удалил из кэша 
+/backend/_check_db.php
+
+# проверка конфиг подключения к БД для разработки  git rm --cached backend/_check_config.php - удалил из кэша 
+/backend/_check_config.php
