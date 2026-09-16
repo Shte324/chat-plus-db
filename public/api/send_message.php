@@ -1,7 +1,7 @@
 <?php
 /**
- * API: принять сообщение от посетителя сайта.
- * Метод: POST (JSON)
+ * API: вернуть сообщение от посетителя сайта.
+ * Метод: GET (JSON)
  * Возвращает: JSON с созданным сообщением или ошибкой.
  */
 
@@ -34,7 +34,7 @@ if($userId === '' || mb_strlen($userId) > 64 || !preg_match('/^[A-Za-z0-9_\-]+$/
 }
 if($text === ''){
      http_response_code(400);
-     echo json_encode(['success' => false, 'error' => 'Messaje is empty']);
+     echo json_encode(['success' => false, 'error' => 'Message is empty']);
      exit;
 }
 

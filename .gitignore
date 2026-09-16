@@ -30,3 +30,5 @@ Thumbs.db
 # Локальные проверочные скрипты (не в Git)
 /backend/_check_*.php
 /public/_check_*.php
+
+help.txt
