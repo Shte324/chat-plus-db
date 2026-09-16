@@ -26,3 +26,7 @@ Thumbs.db
 
 # проверка конфиг подключения к БД для разработки  git rm --cached backend/_check_config.php - удалил из кэша 
 /backend/_check_config.php
+
+# Локальные проверочные скрипты (не в Git)
+/backend/_check_*.php
+/public/_check_*.php
